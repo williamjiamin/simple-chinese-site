@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "phrases": [
+    {"id": "greeting", "translation": "Hello.", "tokens": [{"hanzi": "你", "pinyin": "ni3"}, {"hanzi": "好", "pinyin": "hao3"}]},
+    {"id": "good", "translation": "Very good.", "tokens": [{"hanzi": "很", "pinyin": "hen3"}, {"hanzi": "好", "pinyin": "hao3"}]},
+    {"id": "one-item", "translation": "One item: one before a fourth tone.", "tokens": [{"hanzi": "一", "pinyin": "yi1"}, {"hanzi": "个", "pinyin": "ge4"}]},
+    {"id": "one-day", "translation": "One day: one before a first tone.", "tokens": [{"hanzi": "一", "pinyin": "yi1"}, {"hanzi": "天", "pinyin": "tian1"}]},
+    {"id": "negation", "translation": "Is not: a fourth tone before a fourth tone.", "tokens": [{"hanzi": "不", "pinyin": "bu4"}, {"hanzi": "是", "pinyin": "shi4"}]},
+    {"id": "ordinal", "translation": "The first lesson: an explicit ordinal reading.", "tokens": [{"hanzi": "第", "pinyin": "di4"}, {"hanzi": "一", "pinyin": "yi1", "ordinal": true}, {"hanzi": "课", "pinyin": "ke4"}]},
+    {"id": "neutral", "translation": "Mother: the second syllable is explicitly neutral.", "tokens": [{"hanzi": "妈", "pinyin": "ma1"}, {"hanzi": "妈", "pinyin": "ma1", "neutral": true}]},
+    {"id": "boundary", "translation": "Separate readings: a supplied boundary prevents a tone change.", "tokens": [{"hanzi": "你", "pinyin": "ni3", "boundary_after": true}, {"hanzi": "好", "pinyin": "hao3"}]},
+    {"id": "umlaut", "translation": "Green: an umlaut keyboard spelling normalized for display.", "tokens": [{"hanzi": "绿", "pinyin": "lu:4"}]}
+  ]
+}
